@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(
+        140deg,
+        #ebe724ce 30%,
+        rgba(46, 235, 235, 0.925) 90%
+    );
+
+}
+
+body a{
+    text-decoration: none;
+    color: rgba(217, 217, 226, 0.952);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container{
+     /* background-color: #e0f337; */
+    max-width: 1500px;
+    width: 95%;
+    height: 100vh;
+    margin: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center; 
+    
+}
+.container-items{
+    background-color: rgba(43, 42, 42, 0.836);
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center; 
+    box-shadow: 0 0 3rem blueviolet;
+    /* border: 0.5rem solid rgba(240, 229, 80, 0.918); */
+   
+
+}
+
+.items1{
+    /* background-color: rgba(59, 55, 55, 0.534); */
+    width: fit-content;
+    height: 90%;
+    overflow: scroll;
+    position: relative;
+    top: 0;
+    margin: 0 1rem 0  0;
+    padding: 1.1rem;
+    box-shadow: 0 0 2rem red;
+    
+}
+
+.items1::-webkit-scrollbar{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 0.75rem solid rgba(238, 233, 233, 0.164);
+}
+
+.items2{
+    background-color: #63e5eec5;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    height: fit-content;
+}
+
+
+
+button{
+    /* border: none; */
+    border: 1px xolid black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    color:black;
+    font-weight: 700;
+    font-family: 'Helvetica' , sans-serif;
+    background-image: linear-gradient(
+        240deg,
+        #e7f337 10%,
+        rgb(68, 255, 255) 80%
+    );
+    margin: 10px ;
+    transition: all 0.1s ease-in-out 0.1s;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2rem rgb(68, 255, 255) ;
+}
+
+button:focus{
+   transition: all 0.3s;
+}
+
+.act{
+    box-shadow: 0 0 1rem yellow;
+    background-color: #63ec41;
+}
+
+.facts{
+    box-shadow: 0 0 1rem yellow;
+    background-color: #63ec41;
+}
+
+.jokes{
+    box-shadow: 0 0 1rem yellow;
+    background-color: #63ec41;
+}
+
+.twopart{
+    list-style: none;
+    box-shadow: 0 0 1rem yellow;
+    background-color: #63ec41;
+}
