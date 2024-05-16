@@ -1,5 +1,6 @@
 # APIs-Project [ HTML, CSS, JavaScript] 🔯
 + Here again with a new project on fetching 3 Free APIs. 🍀
+ ![API-project](https://github.com/Nkovaturient/APIs-Project/assets/127786136/b02e6d10-07ac-4b81-90a9-5a2d853dcd86)
 + APIs referred-- ⚡
   - Getting Random Cat Fact
   - Receiving an interesting activity when bored
